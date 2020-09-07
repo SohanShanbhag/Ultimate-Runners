@@ -91,7 +91,7 @@ class Form {
             runner.update();
             runner.updateCount(runnerCount);
             this.greeting.html("Hello " + runner.name);
-            this.greeting.position(displayWidth/2 - 50, displayHeight/4);
+            this.greeting.position(displayWidth/2 - 50, displayHeight/4 + 50);
             this.greeting.style("color", "white")
         });
         
